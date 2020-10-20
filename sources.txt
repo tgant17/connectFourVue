@@ -1,9 +1,0 @@
-1.)
-    < https://www.youtube.com/watch?v=R78cMs75P7E > 
-    < the source is a video showing how to implement tic tac toe in vue > 
-    < used this source to get a basic understanding of how to use vue.js > 
-
-2.)
-    < https://www.w3schools.com/jsref/jsref_includes_array.asp > 
-    < the source is a reference to the array includes() method > 
-    < used this source to firgure out how to find out if an element is in an array > 
