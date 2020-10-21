@@ -7,3 +7,23 @@
     < https://www.w3schools.com/jsref/jsref_includes_array.asp > 
     < the source is a reference to the array includes() method > 
     < used this source to firgure out how to find out if an element is in an array > 
+
+3.)
+    < https://www.w3schools.com/cssref/sel_nth-child.asp >
+    < this source explains how the nth child css selector works > 
+    < used this source to gain more information on the nth child selector > 
+
+4.)
+    < https://www.w3schools.com/colors/colors_picker.asp > 
+    < this source allows users to pick a lot of colors off a color wheel > 
+    < used this source to get non basic colors for various elements > 
+
+5.) 
+    < https://www.w3schools.com/css/css_positioning.asp > 
+    < source includes info on the position css element > 
+    < used this information to positon my gameboard on the page > 
+
+6.) 
+    < https://www.w3schools.com/css/css_text.asp > 
+    < source shows how to change color of text using css > 
+    < used this source to change color of text in my game info box > 

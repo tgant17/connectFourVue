@@ -4,12 +4,61 @@
         <link rel = "stylesheet" href="styles.css">
     </head>
     <body>
+        <div id = "game-view">
+            <div id = game-info>
+                {{ gameMessage }}
+            </div>
+            <div id = "game-view-circles">
+                <div
+                    v-for = "(circle, i) in circles"
+                    v-on:click="activeGame.makeMove(i)"
+                    v-bind:class="{highlighted:circle.isHighlighted}"
+                    class= "game-view-circle">
+                    {{circle.value}}
+                </div>
+            </div>
+        </div>
 
         <script src = "https://cdn.jsdelivr.net/npm/vue" charset="utf-8"></script>
         <script src = "circle.js" charset="utf-8"></script>
         <script src = "game.js" charset="utf-8"></script> 
         <script type = "text/javascript">
             let activeGame = new Game();
+
+            let gameVue = new Vue({
+                el: '#game-view',
+                data: activeGame,
+                computed: 
+                {
+                    gameMessage: function()
+                    {
+                        if(this.inProgress && this.current == Game.red)
+                        {
+                            return 'It is Red\'s turn';
+                        }
+                        else return 'It is Yellow\'s turn'; 
+
+                        if(this.winner)
+                        {
+                            return this.winner + 'wins';
+                        }
+
+                        if(!this.winner && !this.inProgress)
+                        {
+                            return 'this is a draw';
+                        }
+                    },
+
+                    gameColor: function()
+                    {
+                        if(this.current == Game.red)
+                        {
+
+                        }
+                        else ;
+                    }
+                }
+            });
         </script> 
     </body>
 </html>
