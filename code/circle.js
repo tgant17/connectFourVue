@@ -10,6 +10,5 @@ class Circle
     constructor()
     {
         this.value = null;
-        this.highlighted = false;
     }   
 }

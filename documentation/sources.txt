@@ -31,4 +31,9 @@
 7.)
     < http://mathforum.org/library/drmath/view/56137.html > 
     < source contains info on amount of winning combinations in connect 4 > 
-    < used this source to make sure I had the correct amount of winning combos > 
+    < used this source to make sure I had the correct amount of winning combos >
+
+8.)
+    < https://stackoverflow.com/questions/49176337/condition-on-value-for-style-on-vue-js >
+    < {red: selectedColor === 'red', blue: selectedColor === 'blue'} > 
+    < used this source to figure out how to change the background of the circle to a solid color instead of text > 

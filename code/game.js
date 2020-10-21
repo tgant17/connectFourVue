@@ -102,7 +102,6 @@ class Game
             {
                 this.inProgress = false; 
                 this.winner = circleA.value; //red or yellow
-                circleA.highlighted = circleB.highlighted = circleC.highlighted = circleD.highlighted = true;
             }
 
             if(this.movesMade === this.circles.length) this.inProgress = false;

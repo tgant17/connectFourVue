@@ -11,8 +11,7 @@
             <div id = "game-view-circles">
                 <div
                     v-for = "(circle, i) in circles"
-                    v-on:click="activeGame.makeMove(i)"
-                    
+                    v-on:click="activeGame.makeMove(i)"                   
                     v-bind:class="{red:circle.value === 'red', yellow:circle.value === 'yellow'}"
                     class= "game-view-circle">
                     {{circle.value}}
@@ -47,15 +46,6 @@
                         {
                             return 'this is a draw';
                         }
-                    },
-
-                    gameColor: function()
-                    {
-                        if(this.current == Game.red)
-                        {
-                            return true; 
-                        }
-                        else return false;
                     }
                 }
             });

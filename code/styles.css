@@ -60,7 +60,7 @@ body
     -moz-user-select: none; 
 }
 
-.game-view-circle.highlighted{ color: green}
+/* .game-view-circle.highlighted{ background-color: green} */
 
 .game-view-circle.red{background-color: #ff4d4d}
 .game-view-circle.red:hover{background-color: #ff4d4d }
