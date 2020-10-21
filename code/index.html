@@ -32,15 +32,14 @@
                 {
                     gameMessage: function()
                     {
-                        if(this.inProgress && this.current == Game.red)
+                        if(this.inProgress)
                         {
-                            return 'It is Red\'s turn';
+                            return 'It is ' + this.current + '\'s turn'; 
                         }
-                        else return 'It is Yellow\'s turn'; 
 
                         if(this.winner)
                         {
-                            return this.winner + 'wins';
+                            return this.winner + ' wins';
                         }
 
                         if(!this.winner && !this.inProgress)

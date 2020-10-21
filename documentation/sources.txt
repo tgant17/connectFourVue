@@ -27,3 +27,8 @@
     < https://www.w3schools.com/css/css_text.asp > 
     < source shows how to change color of text using css > 
     < used this source to change color of text in my game info box > 
+
+7.)
+    < http://mathforum.org/library/drmath/view/56137.html > 
+    < source contains info on amount of winning combinations in connect 4 > 
+    < used this source to make sure I had the correct amount of winning combos > 
